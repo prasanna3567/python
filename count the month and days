@@ -1,0 +1,27 @@
+count=int(input())
+if(count==1):
+    print("january number of days 31")
+elif(count==2):
+    print("feb 29")
+elif(count==3):
+    print("mar 31")
+elif(count==4):
+    print("apr 30")
+elif(count==5):
+    print("may 31")
+elif(count==6):
+    print("june 30")
+elif(count==7):
+    print("july 31")
+elif(count==8):
+    print("aug 30")
+elif(count==9):
+    print("sep 31")
+elif(count==10):
+    print("oct 30")
+elif(count==11):
+    print("nov 31")
+elif(count==12):
+    print("dec 30")
+else:
+    print("not a month")
