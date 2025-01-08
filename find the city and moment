@@ -1,0 +1,9 @@
+city=input()
+if(city=='theni'):
+    print(f"{city}magemalai")
+elif(city=='kodaikanal'):
+    print(f"{city}guna cave")
+elif(city=='coimbature'):
+    print(f"{city}isha")
+else:
+    print("nothing brother")
