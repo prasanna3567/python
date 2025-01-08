@@ -1,0 +1,9 @@
+a,b,c=map(int,input().split())
+if(a>0 and b>0 and c>0) and ( a+b+c==180 or a==b==c):
+    print("equal traingle")
+elif(a>0 and b>0 and c>0) and (a+b+c==180 or a!=b!=c):
+    print("un equal slides")
+elif(a>0 and b>0 and c>0) and (a+b+c==180 and a!=b or b!=c or a!=c):
+    print("isoles")
+else:
+    print("not a triangle")
